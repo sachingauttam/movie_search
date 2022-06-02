@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
     
     axios
-      .get(`http://www.omdbapi.com/?s=${text}&apikey=db565e9c`)
+      .get(`https://www.omdbapi.com/?s=${text}&apikey=db565e9c`)
       .then((response) => {
         console.log(response);
         setMovie(response.data.Search);
