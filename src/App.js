@@ -60,7 +60,7 @@ function App() {
 
       <div className="container my-3">
         <div className="row">
-          {movie.map((value, index) => {
+          {movie?.map((value, index) => {
             return (
               <>
               
